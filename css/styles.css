@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: WritingSignature;
+    src: url(../webfonts/Writing\ Signature.otf);
+}
+
+[class^=lastmod-]::before {
+    display: block;
+    font-size: small;
+    color: #888;
+}
+
+.lastmod-today:before {
+    content: "Hari ini:";
+}
+
+.lastmod-yesterday:before {
+    content: "Kemarin:";
+}
+
+.lastmod-week::before {
+    content: "Minggu ini:";
+}
+
+.lastmod-month::before {
+    content: "Bulan ini:";
+}
+
+.lastmod-old::before {
+    content: "Lebih lama:";
+}
+
+.lastmod-today:not(.hidden) ~ .lastmod-today::before,
+.lastmod-yesterday:not(.hidden) ~ .lastmod-yesterday::before,
+.lastmod-week:not(.hidden) ~ .lastmod-week::before,
+.lastmod-month:not(.hidden) ~ .lastmod-month::before,
+.lastmod-old:not(.hidden) ~ .lastmod-old::before {
+    content: '';
+}
+
+#navigation > .empty {
+    display: block;
+}
+
+#navigation > :not(.hidden):not(#nav-top) ~ .empty {
+    display: none;
+    /* background-color: red; */
+}
+
+.title-label {
+    font-family: WritingSignature;
+}
+
+.bg-img-blue {
+    background-image: url('../img/bg-blue.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* * {
+    outline: 1px solid red !important;
+} */
