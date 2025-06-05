@@ -14,7 +14,7 @@ include 'layout/simple-header.php';
     </div>
 </div>
 
-<div id="more" class="p-4 md:p-16 flex min-h-screen">
+<div id="more" class="px-4 py-12 md:p-16 flex min-h-screen">
     <div class="my-auto w-full">
         <h1 class="text-center text-5xl mb-16">Fitur Aplikasi CatatanKu</h1>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">

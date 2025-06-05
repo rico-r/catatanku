@@ -15,7 +15,7 @@
 </head>
 
 <body class="min-h-screen">
-    <div class="shadow-md z-50 py-1 flex absolute left-0 top-0 right-0 bg-white">
+    <div class="shadow-md z-50 py-1 flex fixed left-0 top-0 right-0 bg-white">
         <div class="flex">
             <img src="img/logo-1.png" alt="LogoCatatanKu" width="40" class="mr-2">
             <a href="index.php" class="title-label text-2xl my-auto">CatatanKu</a>
